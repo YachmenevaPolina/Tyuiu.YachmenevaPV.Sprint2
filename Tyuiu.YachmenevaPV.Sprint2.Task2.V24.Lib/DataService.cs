@@ -6,8 +6,8 @@ namespace Tyuiu.YachmenevaPV.Sprint2.Task2.V24.Lib
         public bool CheckDotInShadedArea(int x, int y)
         {
             bool res;
-            if (
-        (y == 3 && x >= 4 && x <= 12) ||
+            if 
+        ((y== 3 && x >= 4 && x <= 12) ||
         (y == 4 && x >= 4 && x <= 12) ||
         (y == 5 && x >= 6 && x <= 10) ||
         (y == 6 && x >= 6 && x <= 10) ||
